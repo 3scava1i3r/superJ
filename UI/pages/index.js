@@ -1,6 +1,14 @@
+import {navbar} from "../components/navbar"
 
-export default function Home() {
+
+export default function home() {
+
+  
   return (
-    <div>kbccdjbcjsdcsdcbckbccabcda</div>
+
+    <>
+      
+      <navbar />
+    </>
   )
 }
