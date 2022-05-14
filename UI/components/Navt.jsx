@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Link from 'next/link'
 
-
 const Div = styled.div``;
 
 const Button =  styled.button``;
@@ -11,7 +10,7 @@ const transak = () => {
     console.log("sbcjksbj");
 }
 
-function navbar() {
+function Navt() {
 
     return (
         <>
@@ -37,4 +36,6 @@ function navbar() {
     );
 }
 
-export default navbar;
+export default Navt;
+
+

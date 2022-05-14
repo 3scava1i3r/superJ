@@ -2,7 +2,7 @@ import styled from "styled-components";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import Web3 from "web3";
 import Web3Modal from "web3modal";
-
+import Navt from "../components/Navt";
 
 const Div = styled.div``;
 const Button = styled.button``;
@@ -40,6 +40,7 @@ function walletconnect() {
       
     return (
         <Div>
+            <Navt />
             <Button onClick={kk}>walletconnect</Button>
             
         </Div>
