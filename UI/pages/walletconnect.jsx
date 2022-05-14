@@ -17,6 +17,9 @@ const kk = async() => {
       
       const web3 = new Web3(provider);
       
+      const d = web3.currentProvider.accounts[0]
+      console.log(d)
+
 }
 
 
