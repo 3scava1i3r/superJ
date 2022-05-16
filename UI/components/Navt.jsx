@@ -28,9 +28,6 @@ function Navt() {
         </Div>
 
 
-        <Div>
-            <Button>Transak Buy options</Button>
-        </Div>
         </>
         
     );

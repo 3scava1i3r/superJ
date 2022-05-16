@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import { navbar } from "../components/navbar";
+import Navt from "../components/Navt"
 
 
 const Button = styled.button``;
 
 
 
-function home() {
+function main() {
 
     
     //console.log(window);
@@ -14,7 +14,7 @@ function home() {
         <>
         
         <div>
-            <navbar />
+            <Navt />
             
                 
             
@@ -25,4 +25,4 @@ function home() {
     );
 }
 
-export default home;
+export default main;
